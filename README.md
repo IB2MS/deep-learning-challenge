@@ -18,9 +18,9 @@ I was given a CSV file ontaining more than 34,000 organizations that have receiv
 As a result data included 44 features. The target variable (y) was `IS_SUCCESSFUL`. Then I split The data into training and test subsets.
 
 ## Compiling, Training, and Evaluating the Model
-The model was required to achieve a target predictive accuracy higher than 75%.  My first model got me to the point of accuracy rate 72.60% . I had to make  a few official attempts using machine learning and neural networks.
+In order to meet the requirement of achieving a predictive accuracy higher than 75%, I developed my initial model, which reached an accuracy rate of 72.9%. Subsequently, I conducted several official attempts utilizing machine learning and neural networks to enhance performance.
 
-# Results: 
+# See Results: 
 
 * Model1: (AlphabetSoupCharity.h5) yielded an accuracy score of 72.9%, indicating that 72.9% of its predicted values align with the true values in the dataset.
 
@@ -30,7 +30,7 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 - epochs = 100
 
 
-* Model2: (AlphabetSoupCharity.Optimization.h5) achieved an accuracy score of 75.9%. After incorporating an additional layer and increasing the number of neurons, the accuracy remained at 75.9%. This implies that the highest accuracy among the two models is 75.9%. Both models' predictions closely match the true values in the dataset. The augmentation of layers and neurons led to an improvement in model performance.
+* Model2: (AlphabetSoupCharity.Optimization.h5) achieved an accuracy score of 75.27%. After incorporating an additional layer and increasing the number of neurons, the accuracy remained at 75.27%. This implies that the highest accuracy among the two models is 75.27%. Both models' predictions closely match the true values in the dataset. The augmentation of layers and neurons led to an improvement in model performance.
   
 - total_layers = 3
 - layer1 = 10 neurons : activation function = ‘relu’
@@ -40,4 +40,4 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 
 ## Summary: 
 
-In both trials, the model successfully reached a predictive accuracy of 75%, indicating a notable improvement. Consequently, I would deem this outcome as meeting our targeted goal.
+In both trials, the model successfully reached a predictive accuracy of 75.27%, indicating a notable improvement. Consequently, I would deem this outcome as meeting our targeted goal.
