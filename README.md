@@ -22,7 +22,7 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 
 # Results: 
 
-# Model1: (AlphabetSoupCharity.h5) yielded an accuracy score of 72.9%, indicating that 72.9% of its predicted values align with the true values in the dataset.
+* Model1: (AlphabetSoupCharity.h5) yielded an accuracy score of 72.9%, indicating that 72.9% of its predicted values align with the true values in the dataset.
 
 - total_layers = 2
 - layer1 = 9  neurons : activation function = ‘relu’
@@ -30,7 +30,8 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 - epochs = 100
 
 
-# Model2: (AlphabetSoupCharity.Optimization.h5) achieved an accuracy score of 75.27%. After incorporating an additional layer and increasing the number of neurons, the accuracy remained at 75.27%. This implies that the highest accuracy among the two models is 75.27%. Both models' predictions closely match the true values in the dataset. The augmentation of layers and neurons led to an improvement in model performance.
+* Model2: (AlphabetSoupCharity.Optimization.h5) achieved an accuracy score of 75.27%. After incorporating an additional layer and increasing the number of neurons, the accuracy remained at 75.27%. This implies that the highest accuracy among the two models is 75.27%. Both models' predictions closely match the true values in the dataset. The augmentation of layers and neurons led to an improvement in model performance.
+  
 - total_layers = 3
 - layer1 = 10 neurons : activation function = ‘relu’
 - layer2 = 8 neurons : activation function = sigmoid"'
