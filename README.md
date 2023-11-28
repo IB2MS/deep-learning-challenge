@@ -22,7 +22,7 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 
 * Results: 
   
-Model #1: (AlphabetSoupCharity.h5) resulted in an accuracy score of 72.6%.  This means that 72.6 % of the model’s predicted values align with the dataset’s true values.
+Model #1: (AlphabetSoupCharity.h5) resulted in an accuracy score of 72.9%.  This means that 72.9 % of the model’s predicted values align with the dataset’s true values.
 
 What I used:
 
