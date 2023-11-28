@@ -20,26 +20,23 @@ As a result data included 44 features. The target variable (y) was `IS_SUCCESSFU
 ## Compiling, Training, and Evaluating the Model
 The model was required to achieve a target predictive accuracy higher than 75%.  My first model got me to the point of accuracy rate 72.60% . I had to make  a few official attempts using machine learning and neural networks.
 
-* Results: 
-  
-Model #1: (AlphabetSoupCharity.h5) resulted in an accuracy score of 72.9%.  This means that 72.9 % of the model’s predicted values align with the dataset’s true values.
+# Results: 
 
-What I used:
+* Model #1: (AlphabetSoupCharity.h5) resulted in an accuracy score of 72.9%.  This means that 72.9 % of the model’s predicted values align with the dataset’s true value.
 
-layers = 2
-layer1 = 9  neurons : activation function = ‘relu’
-layer2 = 5 neurons : activation function = ‘relu'
-epochs = 100
+- total_layers = 2
+- layer1 = 9  neurons : activation function = ‘relu’
+- layer2 = 5 neurons : activation function = ‘relu'
+- epochs = 100
 
 
-Model #2: (AlphabetSoupCharity.Optimization.h5) resulted in an accuracy score of 75.27%. I added another layer and neurons. This attempt resulted in an accuracy score of 75.27%. This means that 75.27% of the model’s he highest accuracy score of the two models. This means that both models's predicted values align with dataset's true values . By adding layers and neurons I increased model performance.  
+* Model #2: (AlphabetSoupCharity.Optimization.h5) resulted in an accuracy score of 75.27%. I added another layer and neurons. This attempt resulted in an accuracy score of 75.27%. This means that 75.27% of the model’s he highest accuracy score of the two models. This means that both models's predicted values align with dataset's true values . By adding layers and neurons I increased model performance.  
 
-
-layers = 3
-layer1 = 10 neurons : activation function = ‘relu’
-layer2 = 8 neurons : activation function = sigmoid"'
-layer3 = 6 neurons : activation function = 'sigmoid'
-epochs = 30
+- total_layers = 3
+- layer1 = 10 neurons : activation function = ‘relu’
+- layer2 = 8 neurons : activation function = sigmoid"'
+- layer3 = 6 neurons : activation function = 'sigmoid'
+- epochs = 30
 
 ## Summary: 
 
